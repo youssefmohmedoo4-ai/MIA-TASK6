@@ -33,8 +33,8 @@ class Config:
     MAX_SEQ_LEN = 35
     BATCH_SIZE = 64
     LEARNING_RATE = 3e-4
-    EPOCHS = 20
-    PATIENCE = 4
+    EPOCHS = 50
+    PATIENCE = 50
     GRAD_CLIP = 1.0
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
